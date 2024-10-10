@@ -5,8 +5,8 @@ public class RandomNumberGame {
         Random random = new Random();
 
         // Generate 3 random numbers between 1 and 10
-        int[] randomNumbers = new int[3];
-        for (int i = 0; i < 3; i++) {
+        int[] randomNumbers = new int[5];
+        for (int i = 0; i < 5; i++) {
             randomNumbers[i] = random.nextInt(10) + 1;
         }
 
