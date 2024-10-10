@@ -67,7 +67,7 @@ public class RandomNumberGameWithMoney {
         } else {
             System.out.println("Thanks for playing! You leave with " + money + "€.");
         }
-
+      //Scanner closed
         scanner.close();
     }
 }
